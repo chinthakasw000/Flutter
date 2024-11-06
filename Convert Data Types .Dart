@@ -25,4 +25,22 @@ void main() {
  String convertid = id.toString() ;
   print(convertid.runtimeType);
     
+  //double conversions
+  double price = 200.99 ;
+  String convertprice = price.toString();
+  print("type is ${convertprice.runtimeType}");
+  
+  
+  //convert a boolean is to a string 
+  bool life = true ;
+  String convertLife = life.toString();
+  print("life is ${convertLife.runtimeType}");
+  
+  
+  //null
+  Null nullvalue = null ;
+  print(null);
+  
+
+  
 }
