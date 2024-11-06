@@ -11,4 +11,9 @@ void main() {
   int convertAge = int.parse(age);
   print (convertAge.runtimeType);
   
+  
+  
+  String height = "120.45";
+  // convert the string in to a double
+  print(double.parse(height).runtimeType);
 }
