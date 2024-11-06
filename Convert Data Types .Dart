@@ -16,4 +16,13 @@ void main() {
   String height = "120.45";
   // convert the string in to a double
   print(double.parse(height).runtimeType);
+  
+  
+  //int conversions
+  //convert int to string
+  
+  int id = 501 ;
+ String convertid = id.toString() ;
+  print(convertid.runtimeType);
+    
 }
